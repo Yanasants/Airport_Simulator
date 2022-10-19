@@ -276,9 +276,7 @@ def open_image(dict_name, dictionary, list_imgs, show_image):
   if (show_image == True):
     name_to_display = {'FLOOR QUEUES':' FLOOR QUEUE', 'RUNWAYS': 'RUNWAY', 'TAKING OFF':'TAKING OFF', 'SKY QUEUES':'SKY QUEUE',\
                       'CRASHED AIRPLANES':'CRASHED AIRPLANE', 'EMERGENCY LANDINGS':'EMERGENCY LANDING', 'LANDINGS':'LANDING'}
-    #print('\n')
-    #print('**'*5 + ' ' +dict_name.upper()+ ' '+ '**'*5)
-    #print('\n')
+
     spaces = 10-len(name_to_display[dict_name])
 
     plt.figure(figsize=(4.5, 4.5))
