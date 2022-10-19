@@ -1,0 +1,2 @@
+Number of rounds: 50
+Total of airplane crashed: 0
